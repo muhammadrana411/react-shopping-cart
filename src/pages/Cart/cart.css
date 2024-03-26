@@ -42,3 +42,9 @@
   text-align: center;
   font-weight: bolder;
 }
+
+@media screen and (max-width: 1000px) {
+  .cartItem {
+    margin-bottom: 10%;
+  }
+}
