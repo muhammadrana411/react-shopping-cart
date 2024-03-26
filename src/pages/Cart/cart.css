@@ -1,0 +1,44 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart h1 {
+  font-size: 50px;
+}
+
+.cartItem {
+  width: 90%;
+  height: auto;
+  display: flex;
+
+  align-items: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  margin: 30px;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.cartItem img {
+  width: 15%;
+  max-width: 250px;
+  max-height: 200px;
+  object-fit: cover;
+  margin-left: 2%;
+  margin-right: 5%;
+}
+
+.cartItem .description {
+  width: 85%;
+  font-size: 20px;
+}
+
+.countHandler input {
+  width: 20%;
+  text-align: center;
+  font-weight: bolder;
+}

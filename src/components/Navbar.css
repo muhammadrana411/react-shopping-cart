@@ -1,0 +1,44 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  margin: 0 20px;
+}
+
+.link span {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.link:hover {
+  color: grey;
+}
+
+.cart {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.cartIcon {
+  color: black;
+}
+
+.cartIcon:hover {
+  color: grey;
+}
